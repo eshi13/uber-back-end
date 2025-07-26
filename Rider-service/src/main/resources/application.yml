@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: rider-service
+  datasource:
+    url: jdbc:postgresql://ep-holy-block-a8d98zmt-pooler.eastus2.azure.neon.tech/neondb?sslmode=require&channel_binding=require
+    username: neondb_owner
+    password: npg_ABJ7yH1ivbcS
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8081
