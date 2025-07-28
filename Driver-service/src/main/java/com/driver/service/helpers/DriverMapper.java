@@ -18,7 +18,7 @@ public class DriverMapper {
         driver.setEmail(request.getEmail());
         driver.setPassword(request.getPassword());
         driver.setPhoneNumber(request.getPhoneNumber());
-        driver.setIsAvailable(false);
+        driver.setIsAvailable(true);
         DriverVehicle driverVehicle = new DriverVehicle();
         driverVehicle.setVehicleColor(request.getVehicle().getVehicleColor());
         driverVehicle.setVehicleMake(request.getVehicle().getVehicleMake());
