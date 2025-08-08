@@ -9,13 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
       </profile>
-      <profile name="Annotation profile for Rider-service" enabled="true">
+      <profile name="Annotation profile for Notification-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
+        <module name="Notification-service" />
         <module name="Matching-service" />
         <module name="Rider-service" />
         <module name="Location-service" />
@@ -28,6 +29,7 @@
       <module name="Driver-service" options="-parameters" />
       <module name="Location-service" options="-parameters" />
       <module name="Matching-service" options="-parameters" />
+      <module name="Notification-service" options="-parameters" />
       <module name="Rider-service" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
     </option>
